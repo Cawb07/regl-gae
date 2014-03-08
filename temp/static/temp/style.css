@@ -1,0 +1,77 @@
+@CHARSET "ISO-8859-1";
+#mainMenu,
+#mainMenu ul {
+    list-style: none;
+}
+#mainMenu {
+    float: right;
+}
+#mainMenu > li {
+    float: right;
+}
+#mainMenu li a {
+display: block;
+    height: 2em;
+    line-height: 1.5em;
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+#mainMenu ul {
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+#mainMenu ul li a {
+    width: 80px;
+}
+#mainMenu li:hover ul {
+    display: block;
+}
+
+#wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-width: 500px;
+    background-color: #003e72;
+}
+
+#bod {
+    height: 700px;
+    padding-top: 30px;
+    background: white url("images/bg2.jpg") no-repeat center center fixed;
+
+    background-size: cover;
+    min-width: 500px;
+}
+
+#intro {
+    font-size: 32;
+    color: #003e72;
+
+    position: absolute;
+    right: 50px;
+    width: 400px;
+}
+
+#top {
+    color: white;
+}
+
+body {
+    background: #eff3f5;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    color: #003e72;
+}
+
+a {
+    color: #003e72;
+}
+
+
+/*background: white url("images/bg2.jpg") no-repeat right bottom;*/
